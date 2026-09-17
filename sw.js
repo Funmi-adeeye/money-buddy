@@ -1,5 +1,5 @@
 // Caches the app so it opens with no internet. Your data is never sent anywhere.
-const CACHE = 'money-buddy-v3';
+const CACHE = 'money-buddy-v5';
 const FILES = ['./', './index.html', './manifest.webmanifest', './icon-180.png', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', (e) => {
